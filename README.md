@@ -1,4 +1,5 @@
 Requirements:
+
 Task E1: Replicate Figma Design
 
 Your goal is to bring the Figma design to life using HTML, CSS, and JavaScript. You have the freedom to use libraries like Bootstrap for CSS and jQuery for animations if you find them useful. Remember, attention to detail is key. Your final product should closely resemble the Figma design, and your implementation should be responsive and functional on both desktop and mobile devices.
