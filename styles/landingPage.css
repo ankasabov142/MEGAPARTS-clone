@@ -1,4 +1,6 @@
-body {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
 }
@@ -11,8 +13,9 @@ header {
   width: 100vw;
   height: 72px;
   flex-shrink: 0;
-  background: #19242D;
+  background: #19242d;
   justify-content: center;
+  align-items: center;
   display: flex;
   gap: 102px;
 }
@@ -83,25 +86,171 @@ header {
   width: 100vw;
   height: 72px;
   flex-shrink: 0;
-  background-color: #202D39;
+  display: flex;
+  align-items: center;
+  background-color: #202d39;
+}
+.rectangle2 .carouselWrapper {
+  flex-grow: 1;
+  overflow: hidden;
+}
+.rectangle2 .carouselWrapper .carousel {
+  display: flex;
+  gap: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.rectangle2 .carouselWrapper .carousel .itH {
+  display: flex;
+  padding: 8px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #008aee;
+}
+.rectangle2 .carouselWrapper .carousel .it1 {
+  display: flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #008aee;
+}
+.rectangle2 .carouselWrapper .carousel .it1 p {
+  color: #FFF;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rectangle2 .carouselWrapper .carousel .it2 {
+  display: flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #5FB865;
+}
+.rectangle2 .carouselWrapper .carousel .it2 p {
+  color: #FFF;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rectangle2 .carouselWrapper .carousel .it3 {
+  display: flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #63C7C9;
+}
+.rectangle2 .carouselWrapper .carousel .it3 p {
+  color: #FFF;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rectangle2 .carouselWrapper .carousel .it4 {
+  display: flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #DC5426;
+}
+.rectangle2 .carouselWrapper .carousel .it4 p {
+  color: #FFF;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rectangle2 .carouselWrapper .carousel .it5 {
+  display: flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #E59D48;
+}
+.rectangle2 .carouselWrapper .carousel .it5 p {
+  color: #FFF;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rectangle2 .carouselWrapper .carousel .it6 {
+  display: flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #BD5FE9;
+}
+.rectangle2 .carouselWrapper .carousel .it6 p {
+  color: #FFF;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rectangle2 .carouselWrapper .carousel .it7 {
+  display: flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: transparent;
+  border: 1.5px solid #DC5426;
+}
+.rectangle2 .carouselWrapper .carousel .it7 p {
+  color: #FFF;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .searchDiv {
   display: flex;
   width: 100vw;
-  height: 264px;
   padding: 25px 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  background-color: #008AEE;
+  background-color: #008aee;
 }
 .searchDiv .mainSearchContent {
   display: flex;
   width: 1179px;
-  height: 214px;
   padding: 20px 25px;
   flex-direction: column;
   align-items: flex-start;
@@ -117,9 +266,7 @@ header {
   gap: 15px;
 }
 .searchDiv .mainSearchContent .searchHeader img {
-  padding-top: 30px;
-  width: 21px;
-  height: 21px;
+  margin-top: 2px;
   stroke-width: 4px;
   stroke: #19242d;
 }
@@ -182,7 +329,7 @@ header {
   background: #008aee;
 }
 .searchDiv .mainSearchContent .searchBar .buttonInput input {
-  color: #FEFEFE;
+  color: #fefefe;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 26px;
@@ -192,4 +339,105 @@ header {
   background-color: transparent;
   border: none;
   outline: none;
+}
+.searchDiv .mainSearchContent .filters {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.searchDiv .mainSearchContent .filters .frame1 {
+  display: flex;
+  padding: 6px 22px;
+  gap: 10px;
+  border-radius: 25px;
+  background: #008aee;
+}
+.searchDiv .mainSearchContent .filters .frame1 p {
+  color: #fefefe;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.searchDiv .mainSearchContent .filters .frame2 {
+  display: flex;
+  padding: 6px 22px;
+  gap: 10px;
+  border-radius: 25px;
+  border: 1.5px solid #008aee;
+}
+.searchDiv .mainSearchContent .filters .frame2 p {
+  color: #19242d;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.searchDiv .mainSearchContent .filters .frame3 {
+  display: flex;
+  padding: 6px 22px;
+  gap: 10px;
+  border-radius: 25px;
+  border: 1.5px solid #5fb865;
+}
+.searchDiv .mainSearchContent .filters .frame3 p {
+  color: #19242d;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.searchDiv .mainSearchContent .filters .frame4 {
+  display: flex;
+  padding: 6px 22px;
+  gap: 10px;
+  border-radius: 25px;
+  border: 1.5px solid #63c7c9;
+}
+.searchDiv .mainSearchContent .filters .frame4 p {
+  color: #19242d;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.searchDiv .mainSearchContent .filters .frame5 {
+  display: flex;
+  padding: 6px 22px;
+  gap: 10px;
+  border-radius: 25px;
+  border: 1.5px solid #dc5426;
+}
+.searchDiv .mainSearchContent .filters .frame5 p {
+  color: #19242d;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.searchDiv .mainSearchContent .filters .frame6 {
+  display: flex;
+  padding: 6px 22px;
+  gap: 10px;
+  border-radius: 25px;
+  border: 1.5px solid #e59d48;
+}
+.searchDiv .mainSearchContent .filters .frame6 p {
+  color: #19242d;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }/*# sourceMappingURL=landingPage.css.map */

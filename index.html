@@ -11,6 +11,7 @@
     <title>MEGAPARTS</title>
 
     <link rel="stylesheet" href="/styles/landingPage.css" />
+    <link rel="stylesheet" href="vars.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -50,7 +51,50 @@
           </div>
         </section>
       </div>
-      <div class="rectangle2"></div>
+      <div class="rectangle2">
+        <button id="carouselBack">
+          <img src="/resources/pointBack.png" alt="<" />
+        </button>
+        <section class="carouselWrapper">
+          <section class="carousel">
+            <div class="carouselItem itH">
+              <img src="/resources/homeIcon.png" alt="">
+            </div>
+
+            <div class="carouselItem it1">
+              <img src="/resources/gearIcon.png" alt="" />
+              <p>Авточасти</p>
+            </div>
+            <div class="carouselItem it2">
+              <img src="/resources/houseIcon.png" alt="">
+            <p>Борса Части</p>
+            </div>
+            <div class="carouselItem it3">
+              <img src="/resources/carIcon.png" alt="">
+              <p>АВТОБОРСА</p>
+            </div>
+            <div class="carouselItem it4">
+              <img src="/resources/wheelIcon.png" alt="">
+              <p>ПРОДАВА КОЛИ</p>
+            </div>
+            <div class="carouselItem it5">
+              <img src="/resources/gearIcon.png" alt="">
+              <p>ПРОДАВА ЧАСТИ</p>
+            </div>
+            <div class="carouselItem it6">
+              <img src="/resources/controllerIcon.png" alt="">
+              <p>ИГРИ</p>
+            </div>
+            <div class="carouselItem it7">
+              <img src="/resources/insuranceIcon.png" alt="">
+              <p>ЗАСТРАХОВКИ</p>
+            </div>
+          </section>
+        </section>
+        <button id="carouselForward">
+          <img src="/resources/pointForward.png" alt=">" />
+        </button>
+      </div>
     </header>
     <section id="search">
       <div class="searchDiv">
@@ -72,9 +116,17 @@
               <input type="button" value="Търсене" />
             </div>
           </div>
-          <div class="filters"></div>
+          <div class="filters">
+            <div class="frame1"><p>Всичко</p></div>
+            <div class="frame2"><p>Авточасти</p></div>
+            <div class="frame3"><p>Борса Части</p></div>
+            <div class="frame4"><p>Автоборса</p></div>
+            <div class="frame5"><p>Продава Коли</p></div>
+            <div class="frame6"><p>Продава Части</p></div>
+          </div>
         </div>
       </div>
     </section>
+    <script src="app.js"></script>
   </body>
 </html>

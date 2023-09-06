@@ -1,9 +1,35 @@
-$backgroundColorRectangle1:#19242D ;
-$backgroundColorRectangle2:#202D39; 
-$backgroundColorSearchDiv:#008AEE; 
+$backgroundColorRectangle1: #19242d;
+$backgroundColorRectangle2: #202d39;
+$backgroundColorSearchDiv: #008aee;
 
-@mixin headerRectangle{
-width: 100vw;
-height: 72px;
-flex-shrink: 0;
+@mixin headerRectangle {
+  width: 100vw;
+  height: 72px;
+  flex-shrink: 0;
+}
+
+@mixin frame {
+  display: flex;
+  padding: 6px 22px;
+  gap: 10px;
+  border-radius:25px;
+}
+
+@mixin carouselItem{
+    display: flex;
+padding: 5px 15px;
+justify-content: center;
+align-items: center;
+gap: 10px; 
+border-radius: 25px;
+}
+
+@mixin carouselText{
+        color: #FFF;
+        font-family: "Exo 2", sans-serif;
+        font-family: "Questrial", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
 }
