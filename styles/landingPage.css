@@ -384,13 +384,14 @@ header {
   background: #008aee;
 }
 .searchDiv .mainSearchContent .filters .frame1 p {
-  color: #fefefe;
+  color: #19242d;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
+  color: #fefefe;
 }
 .searchDiv .mainSearchContent .filters .frame2 {
   display: flex;

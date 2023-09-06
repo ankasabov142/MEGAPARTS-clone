@@ -88,7 +88,7 @@ header {
   align-items: center;
   background-color: $backgroundColorRectangle2;
   justify-content: center;
-  .rectangle2Content{
+  .rectangle2Content {
     position: relative;
     display: flex;
     align-items: center;
@@ -103,31 +103,17 @@ header {
     transition: opacity 300ms ease-in-out;
     width: 30px;
     text-decoration: none;
-    background: linear-gradient(
-      90deg,
-      transparent -0.31%,
-      #202d39 35.35%
-    );
-    
+    background: linear-gradient(90deg, transparent -0.31%, #202d39 35.35%);
   }
   #carouselForward {
-   right: -1%;
-   background: linear-gradient(
-    90deg,
-    transparent -0.31%,
-    #202d39 35.35%
-  );
-    
+    right: -1%;
+    background: linear-gradient(90deg, transparent -0.31%, #202d39 35.35%);
   }
   #carouselBack {
     opacity: 0;
     left: -1%;
-    background: linear-gradient(
-      -90deg,
-      transparent -0.31%,
-      #202d39 35.35%
-    );
-   }
+    background: linear-gradient(-90deg, transparent -0.31%, #202d39 35.35%);
+  }
   .carouselWrapper {
     flex-grow: 1;
     overflow: hidden;
@@ -302,78 +288,44 @@ header {
         @include frame;
         background: $backgroundColorSearchDiv;
         p {
+          @include frameText;
           color: #fefefe;
-          font-family: "Exo 2", sans-serif;
-          font-family: "Questrial", sans-serif;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
+
         }
       }
       .frame2 {
         @include frame;
         border: 1.5px solid #008aee;
         p {
-          color: #19242d;
-          font-family: "Exo 2", sans-serif;
-          font-family: "Questrial", sans-serif;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
+          @include frameText;
         }
       }
       .frame3 {
         @include frame;
         border: 1.5px solid #5fb865;
         p {
-          color: #19242d;
-          font-family: "Exo 2", sans-serif;
-          font-family: "Questrial", sans-serif;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
+          @include frameText;
         }
       }
       .frame4 {
         @include frame;
         border: 1.5px solid #63c7c9;
         p {
-          color: #19242d;
-          font-family: "Exo 2", sans-serif;
-          font-family: "Questrial", sans-serif;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
+          @include frameText;
         }
       }
       .frame5 {
         @include frame;
         border: 1.5px solid #dc5426;
         p {
-          color: #19242d;
-          font-family: "Exo 2", sans-serif;
-          font-family: "Questrial", sans-serif;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
+          @include frameText;
         }
       }
       .frame6 {
         @include frame;
         border: 1.5px solid #e59d48;
         p {
-          color: #19242d;
-          font-family: "Exo 2", sans-serif;
-          font-family: "Questrial", sans-serif;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
+          @include frameText;
         }
       }
     }
