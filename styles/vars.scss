@@ -12,24 +12,24 @@ $backgroundColorSearchDiv: #008aee;
   display: flex;
   padding: 6px 22px;
   gap: 10px;
-  border-radius:25px;
+  border-radius: 25px;
 }
 
-@mixin carouselItem{
-    display: flex;
-padding: 5px 15px;
-justify-content: center;
-align-items: center;
-gap: 10px; 
-border-radius: 25px;
+@mixin carouselItem {
+  display: flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
 }
 
-@mixin carouselText{
-        color: #FFF;
-        font-family: "Exo 2", sans-serif;
-        font-family: "Questrial", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
+@mixin carouselText {
+    white-space: nowrap;
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }

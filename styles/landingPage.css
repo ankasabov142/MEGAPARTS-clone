@@ -86,19 +86,50 @@ header {
   width: 100vw;
   height: 72px;
   flex-shrink: 0;
+  position: relative;
   display: flex;
   align-items: center;
   background-color: #202d39;
+  justify-content: center;
+}
+.rectangle2 .rectangle2Content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle2 button {
+  z-index: 1000;
+  position: absolute;
+  border: none;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+  width: 30px;
+  text-decoration: none;
+  background: linear-gradient(90deg, transparent -0.31%, #202d39 35.35%);
+}
+.rectangle2 #carouselForward {
+  right: -1%;
+  background: linear-gradient(90deg, transparent -0.31%, #202d39 35.35%);
+}
+.rectangle2 #carouselBack {
+  opacity: 0;
+  left: -1%;
+  background: linear-gradient(-90deg, transparent -0.31%, #202d39 35.35%);
 }
 .rectangle2 .carouselWrapper {
   flex-grow: 1;
   overflow: hidden;
+  max-width: 1179px;
+  padding-inline: 5px;
 }
 .rectangle2 .carouselWrapper .carousel {
   display: flex;
   gap: 8px;
-  width: -moz-fit-content;
-  width: fit-content;
+  transition: transform 300ms ease-in-out;
+  width: -moz-max-content;
+  width: max-content;
 }
 .rectangle2 .carouselWrapper .carousel .itH {
   display: flex;
@@ -112,14 +143,14 @@ header {
 .rectangle2 .carouselWrapper .carousel .it1 {
   display: flex;
   padding: 5px 15px;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 25px;
   background: #008aee;
 }
 .rectangle2 .carouselWrapper .carousel .it1 p {
-  color: #FFF;
+  white-space: nowrap;
+  color: #fff;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
@@ -130,14 +161,14 @@ header {
 .rectangle2 .carouselWrapper .carousel .it2 {
   display: flex;
   padding: 5px 15px;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 25px;
-  background: #5FB865;
+  background: #5fb865;
 }
 .rectangle2 .carouselWrapper .carousel .it2 p {
-  color: #FFF;
+  white-space: nowrap;
+  color: #fff;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
@@ -148,14 +179,14 @@ header {
 .rectangle2 .carouselWrapper .carousel .it3 {
   display: flex;
   padding: 5px 15px;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 25px;
-  background: #63C7C9;
+  background: #63c7c9;
 }
 .rectangle2 .carouselWrapper .carousel .it3 p {
-  color: #FFF;
+  white-space: nowrap;
+  color: #fff;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
@@ -166,14 +197,14 @@ header {
 .rectangle2 .carouselWrapper .carousel .it4 {
   display: flex;
   padding: 5px 15px;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 25px;
-  background: #DC5426;
+  background: #dc5426;
 }
 .rectangle2 .carouselWrapper .carousel .it4 p {
-  color: #FFF;
+  white-space: nowrap;
+  color: #fff;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
@@ -184,14 +215,14 @@ header {
 .rectangle2 .carouselWrapper .carousel .it5 {
   display: flex;
   padding: 5px 15px;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 25px;
-  background: #E59D48;
+  background: #e59d48;
 }
 .rectangle2 .carouselWrapper .carousel .it5 p {
-  color: #FFF;
+  white-space: nowrap;
+  color: #fff;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
@@ -202,14 +233,14 @@ header {
 .rectangle2 .carouselWrapper .carousel .it6 {
   display: flex;
   padding: 5px 15px;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 25px;
-  background: #BD5FE9;
+  background: #bd5fe9;
 }
 .rectangle2 .carouselWrapper .carousel .it6 p {
-  color: #FFF;
+  white-space: nowrap;
+  color: #fff;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
@@ -220,15 +251,15 @@ header {
 .rectangle2 .carouselWrapper .carousel .it7 {
   display: flex;
   padding: 5px 15px;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 25px;
   background: transparent;
-  border: 1.5px solid #DC5426;
+  border: 1.5px solid #dc5426;
 }
 .rectangle2 .carouselWrapper .carousel .it7 p {
-  color: #FFF;
+  white-space: nowrap;
+  color: #fff;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18px;

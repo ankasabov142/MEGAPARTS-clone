@@ -83,16 +83,62 @@ header {
 }
 .rectangle2 {
   @include headerRectangle;
+  position: relative;
   display: flex;
   align-items: center;
   background-color: $backgroundColorRectangle2;
+  justify-content: center;
+  .rectangle2Content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    z-index: 1000;
+    position: absolute;
+    border: none;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+    width: 30px;
+    text-decoration: none;
+    background: linear-gradient(
+      90deg,
+      transparent -0.31%,
+      #202d39 35.35%
+    );
+    
+  }
+  #carouselForward {
+   right: -1%;
+   background: linear-gradient(
+    90deg,
+    transparent -0.31%,
+    #202d39 35.35%
+  );
+    
+  }
+  #carouselBack {
+    opacity: 0;
+    left: -1%;
+    background: linear-gradient(
+      -90deg,
+      transparent -0.31%,
+      #202d39 35.35%
+    );
+   }
   .carouselWrapper {
     flex-grow: 1;
     overflow: hidden;
+    max-width: 1179px;
+    padding-inline: 5px;
+
     .carousel {
       display: flex;
       gap: 8px;
-      width: fit-content;
+      transition: transform 300ms ease-in-out;
+      width: max-content;
       .itH {
         display: flex;
         padding: 8px 15px;
@@ -102,57 +148,56 @@ header {
         border-radius: 25px;
         background: $backgroundColorSearchDiv;
       }
-      .it1{
+      .it1 {
         @include carouselItem;
         background: $backgroundColorSearchDiv;
-        p{
+        p {
           @include carouselText;
         }
       }
-      .it2{
+      .it2 {
         @include carouselItem;
-        background: #5FB865;
-        p{
+        background: #5fb865;
+        p {
           @include carouselText;
         }
       }
-      .it3{
+      .it3 {
         @include carouselItem;
-        background: #63C7C9;
-        p{
+        background: #63c7c9;
+        p {
           @include carouselText;
         }
       }
-      .it4{
+      .it4 {
         @include carouselItem;
-        background: #DC5426;
-        p{
+        background: #dc5426;
+        p {
           @include carouselText;
         }
       }
-      .it5{
+      .it5 {
         @include carouselItem;
-        background: #E59D48;
-        p{
+        background: #e59d48;
+        p {
           @include carouselText;
         }
       }
-      .it6{
+      .it6 {
         @include carouselItem;
-        background: #BD5FE9;
-        p{
+        background: #bd5fe9;
+        p {
           @include carouselText;
         }
       }
-      .it7{
+      .it7 {
         @include carouselItem;
         background: transparent;
-        border: 1.5px solid #DC5426; 
-        p{
+        border: 1.5px solid #dc5426;
+        p {
           @include carouselText;
         }
       }
-      
     }
   }
 }
