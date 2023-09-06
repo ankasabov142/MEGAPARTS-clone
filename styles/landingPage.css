@@ -8,8 +8,71 @@ body {
   height: 72px;
   flex-shrink: 0;
   background: #19242D;
-  align-items: space-between;
+  justify-content: center;
+  display: flex;
+  gap: 102px;
+}
+.rectangle1 #logo-megaparts {
+  width: 538px;
+  height: 35px;
+  display: flex;
+  padding: 10px 0px;
+  justify-content: center;
   align-items: center;
+  gap: 25px;
+}
+.rectangle1 #navigationIcons {
+  display: flex;
+  width: 538px;
+  height: 35px;
+  padding: 10px 0px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+}
+.rectangle1 .container1 {
+  display: inline-flex;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+}
+.rectangle1 .container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.rectangle1 .container2 p {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.rectangle1 .container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.rectangle1 .container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.rectangle1 .container4 p {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .rectangle2 {
@@ -17,5 +80,4 @@ body {
   height: 72px;
   flex-shrink: 0;
   background: #19242D;
-  align-items: space-between;
 }/*# sourceMappingURL=landingPage.css.map */

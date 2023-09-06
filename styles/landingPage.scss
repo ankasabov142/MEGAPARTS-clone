@@ -1,14 +1,79 @@
 @import "vars.scss";
-body{
+body {
   margin: 0;
   padding: 0;
 }
 
 .rectangle1 {
   @include headerRectangle;
-  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 102px;
+  #logo-megaparts {
+    width: 538px;
+    height: 35px;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  #navigationIcons {
+    display: flex;
+    width: 538px;
+    height: 35px;
+    padding: 10px 0px;
 
-  
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+  }
+  .container1 {
+    display: inline-flex;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    p {
+      color: #fff;
+      font-family: "Exo 2", sans-serif;
+      font-family: "Questrial", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+  .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    p {
+      color: #fff;
+      font-family: "Exo 2", sans-serif;
+      font-family: "Questrial", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
 }
 .rectangle2 {
   @include headerRectangle;
