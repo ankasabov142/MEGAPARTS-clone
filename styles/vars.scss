@@ -1,8 +1,9 @@
-$backgroundColor:#19242D ;
+$backgroundColorRectangle1:#19242D ;
+$backgroundColorRectangle2:#202D39; 
+$backgroundColorSearchDiv:#008AEE; 
 
 @mixin headerRectangle{
 width: 100vw;
 height: 72px;
 flex-shrink: 0;
-background: $backgroundColor;
 }
