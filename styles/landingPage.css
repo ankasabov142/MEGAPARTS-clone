@@ -1,1 +1,21 @@
-/*# sourceMappingURL=landingPage.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.rectangle1 {
+  width: 100vw;
+  height: 72px;
+  flex-shrink: 0;
+  background: #19242D;
+  align-items: space-between;
+  align-items: center;
+}
+
+.rectangle2 {
+  width: 100vw;
+  height: 72px;
+  flex-shrink: 0;
+  background: #19242D;
+  align-items: space-between;
+}/*# sourceMappingURL=landingPage.css.map */

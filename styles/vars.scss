@@ -1,0 +1,9 @@
+$backgroundColor:#19242D ;
+
+@mixin headerRectangle{
+width: 100vw;
+height: 72px;
+flex-shrink: 0;
+background: $backgroundColor;
+align-items: space-between;
+}

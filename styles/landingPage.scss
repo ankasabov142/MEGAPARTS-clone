@@ -1,3 +1,15 @@
+@import "vars.scss";
 body{
-    background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.rectangle1 {
+  @include headerRectangle;
+  align-items: center;
+
+  
+}
+.rectangle2 {
+  @include headerRectangle;
 }
