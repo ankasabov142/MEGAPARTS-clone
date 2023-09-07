@@ -640,6 +640,7 @@ header {
   overflow: hidden;
 }
 .autoParts .autoPartsDiv .autoPartsMain .autoPartsHeading {
+  margin-bottom: 12px;
   width: 229px;
   height: -moz-fit-content;
   height: fit-content;
@@ -713,6 +714,157 @@ header {
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18.782px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.autoExchange {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 80.13px;
+}
+.autoExchange .autoExchangeDiv {
+  display: flex;
+  gap: 32px;
+  width: 1180px;
+  height: 277.747px;
+  flex-shrink: 0;
+}
+.autoExchange .autoExchangeDiv .autoExchangeFixed {
+  display: flex;
+  width: 271px;
+  height: 271px;
+  padding: 25px 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #5FB865;
+  background: #5FB865;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.autoExchange .autoExchangeDiv .autoExchangeFixed .autoExchangeFixedGearDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.autoExchange .autoExchangeDiv .autoExchangeFixed .autoExchangeFixedGearDiv img {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+.autoExchange .autoExchangeDiv .autoExchangeFixed .autoExchangeFixedGearDiv .partsHeading {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.autoExchange .autoExchangeDiv .autoExchangeFixed .partsText {
+  align-self: stretch;
+  color: #ededed;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.autoExchange .autoExchangeDiv .autoExchangeFixed .autoExchangeFixedButton {
+  display: flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #fff;
+}
+.autoExchange .autoExchangeDiv .autoExchangeFixed .autoExchangeFixedButton button {
+  color: #5FB865;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain {
+  overflow: hidden;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain .autoExchangeHeading {
+  width: 287px;
+  height: -moz-fit-content;
+  height: fit-content;
+  flex-shrink: 0;
+  margin-bottom: 12px;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain .autoExchangeHeading p {
+  color: #19242d;
+  align-self: stretch;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain .autoExchangeSlider {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain .autoExchangeSlider .autoExchangeProductUnit {
+  display: flex;
+  width: 271px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.972px;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain .autoExchangeSlider .autoExchangeProductUnit img {
+  width: 271px;
+  height: 179.538px;
+  border-radius: 15.651px;
+  border: 2px solid #5FB865;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain .autoExchangeSlider .autoExchangeProductUnit .autoExchangeProductDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.983px;
+  align-self: stretch;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain .autoExchangeSlider .autoExchangeProductUnit .autoExchangeProductDescription .autoExchangeProductName {
+  align-self: stretch;
+  color: #19242d;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain .autoExchangeSlider .autoExchangeProductUnit .autoExchangeProductDescription .autoExchangeProductName .buying {
+  color: #5fb865;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.autoExchange .autoExchangeDiv .autoExchangeMain .autoExchangeSlider .autoExchangeProductUnit .autoExchangeProductDescription .autoExchangeProductName .selling {
+  color: #008aee;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
