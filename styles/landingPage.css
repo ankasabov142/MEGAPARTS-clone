@@ -3,6 +3,7 @@
 *::after {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 header {
@@ -472,4 +473,17 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.bannerSlider {
+  width: 100vw;
+  height: 299px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.bannerSlider img {
+  height: 299px;
+  width: 100vw;
+  -o-object-fit: fill;
+     object-fit: fill;
 }/*# sourceMappingURL=landingPage.css.map */

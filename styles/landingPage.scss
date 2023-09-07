@@ -4,6 +4,8 @@
 *::after {
   margin: 0;
   padding: 0;
+  overflow: hidden;
+
 }
 header {
   width: 100vw;
@@ -291,7 +293,6 @@ header {
           @include frameText;
           color: #fefefe;
         }
-        
       }
       .frame2 {
         @include frame;
@@ -329,5 +330,17 @@ header {
         }
       }
     }
+  }
+}
+
+.bannerSlider {
+  width: 100vw;
+  height: 299px;
+  flex-shrink: 0;
+  overflow: hidden;
+  img{
+    height: 299px;
+    width: 100vw;
+    object-fit:fill;
   }
 }
