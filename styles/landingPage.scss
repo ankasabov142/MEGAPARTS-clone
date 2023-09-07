@@ -426,67 +426,24 @@ header {
     height: 277.747px;
     flex-shrink: 0;
     .autoPartsFixed {
-      display: flex;
-      width: 271px;
-      height: 271px;
-      padding: 25px 15px;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      flex-shrink: 0;
-      border-radius: 25px;
-      border: 2px solid #008aee;
-      background: #008aee;
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+      @include card;
       .autoPartsFixedGearDiv {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
+        @include cardDiv;
         img {
-          width: 32px;
-          height: 32px;
-          fill: #fff;
+          @include cardImg;
         }
 
         .partsHeading {
-          color: #fff;
-          font-family: "Exo 2", sans-serif;
-          font-family: "Questrial", sans-serif;
-          font-size: 26px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
+          @include cardHeading;
         }
       }
       .partsText {
-        align-self: stretch;
-        color: #ededed;
-        font-family: "Exo 2", sans-serif;
-        font-family: "Questrial", sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        text-align: center;
+        @include cardText;
       }
       .autoPartsFixedButton {
-        display: flex;
-        padding: 5px 15px;
-        align-items: center;
-        gap: 10px;
-        border-radius: 25px;
-        background: #fff;
+        @include cardButton;
         button {
-          color: #008aee;
-          font-family: "Roboto", sans-serif;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          text-decoration: none;
-          border: none;
-          background-color: transparent;
+          @include cardButtonBtn;
         }
       }
     }
@@ -586,68 +543,28 @@ header {
     height: 277.747px;
     flex-shrink: 0;
     .autoExchangeFixed {
-      display: flex;
-      width: 271px;
-      height: 271px;
-      padding: 25px 15px;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      flex-shrink: 0;
-      border-radius: 25px;
-      border: 2px solid #5FB865;
-      background: #5FB865;
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+      @include card;
+      border: 2px solid #5fb865;
+      background: #5fb865;
+
       .autoExchangeFixedGearDiv {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
+        @include cardDiv;
         img {
-          width: 32px;
-          height: 32px;
-          fill: #fff;
+          @include cardImg;
         }
 
         .partsHeading {
-          
-          color: #fff;
-          font-family: "Exo 2", sans-serif;
-          font-family: "Questrial", sans-serif;
-          font-size: 26px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
+          @include cardHeading;
         }
       }
       .partsText {
-        align-self: stretch;
-        color: #ededed;
-        font-family: "Exo 2", sans-serif;
-        font-family: "Questrial", sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        text-align: center;
+        @include cardText;
       }
       .autoExchangeFixedButton {
-        display: flex;
-        padding: 5px 15px;
-        align-items: center;
-        gap: 10px;
-        border-radius: 25px;
-        background: #fff;
+        @include cardButton;
         button {
-          color: #5FB865;
-          font-family: "Roboto", sans-serif;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-          text-decoration: none;
-          border: none;
-          background-color: transparent;
+          @include cardButtonBtn;
+          color: #5fb865;
         }
       }
     }
@@ -683,7 +600,7 @@ header {
             width: 271px;
             height: 179.538px;
             border-radius: 15.651px;
-            border: 2px solid #5FB865;
+            border: 2px solid #5fb865;
             object-fit: cover;
           }
           .autoExchangeProductDescription {
@@ -701,26 +618,144 @@ header {
               font-style: normal;
               font-weight: 700;
               line-height: normal;
-              .buying{
-              color: #5fb865;
-              font-family: "Roboto", sans-serif;
-              font-size: 16px;
-              font-style: normal;
-              font-weight: 700;
-              line-height: normal;
+              .buying {
+                color: #5fb865;
+                font-family: "Roboto", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
               }
-              .selling{
+              .selling {
                 color: #008aee;
-              font-family: "Roboto", sans-serif;
-              font-size: 16px;
-              font-style: normal;
-              font-weight: 700;
-              line-height: normal;
+                font-family: "Roboto", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
               }
             }
-            
-            
           }
+        }
+      }
+    }
+  }
+}
+
+.servicesFixedFirst {
+  width: 100vw;
+  margin-top: 80.13px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  .servicesFixedFirstDiv {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    width: 1180px;
+    height: 271px;
+    .autoExchangeServices {
+      @include card;
+      border: 2px solid #63C7C9;
+      background: #63C7C9;
+
+      .autoExchangeFixedCarDiv {
+        @include cardDiv;
+        img {
+          @include cardImg;
+        }
+
+        .partsHeading {
+          @include cardHeading;
+        }
+      }
+      .partsText {
+        @include cardText;
+      }
+      .autoExchangeFixedButton {
+        @include cardButton;
+        button {
+          @include cardButtonBtn;
+          color: #63C7C9;
+        }
+      }
+    }
+
+    .sellingServices {
+      @include card;
+      border: 2px solid #DC5426;
+      background: #DC5426;
+
+      .sellingServicesFixedWheelDiv {
+        @include cardDiv;
+        img {
+          @include cardImg;
+        }
+
+        .partsHeading {
+          @include cardHeading;
+        }
+      }
+      .partsText {
+        @include cardText;
+      }
+      .sellingServicesButton {
+        @include cardButton;
+        button {
+          @include cardButtonBtn;
+          color: #DC5426;
+        }
+      }
+    }
+    .partsFixed {
+      @include card;
+      border: 2px solid #E59D48;
+      background: #E59D48;
+
+      .partsFixedGearDiv {
+        @include cardDiv;
+        img {
+          @include cardImg;
+        }
+
+        .partsHeading {
+          @include cardHeading;
+        }
+      }
+      .partsText {
+        @include cardText;
+      }
+      .partsFixedButton {
+        @include cardButton;
+        button {
+          @include cardButtonBtn;
+          color: #E59D48;
+        }
+      }
+    }
+    .gamesFixed {
+      @include card;
+      border: 2px solid #BD5FE9;
+      background: #BD5FE9;
+
+      .gamesFixedControllerDiv {
+        @include cardDiv;
+        img {
+          @include cardImg;
+        }
+
+        .partsHeading {
+          @include cardHeading;
+        }
+      }
+      .partsText {
+        @include cardText;
+      }
+      .gamesFixedButton {
+        @include cardButton;
+        button {
+          @include cardButtonBtn;
+          color: #BD5FE9;
         }
       }
     }

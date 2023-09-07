@@ -1,3 +1,68 @@
+.autoPartsFixed {
+  display: flex;
+  width: 271px;
+  height: 271px;
+  padding: 25px 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #008aee;
+  background: #008aee;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.autoPartsFixed .autoPartsFixedGearDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.autoPartsFixed .autoPartsFixedGearDiv img {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+.autoPartsFixed .autoPartsFixedGearDiv .partsHeading {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.autoPartsFixed .partsText {
+  align-self: stretch;
+  color: #ededed;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.autoPartsFixed .autoPartsFixedButton {
+  display: flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #fff;
+}
+.autoPartsFixed .autoPartsFixedButton button {
+  color: #008aee;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
 *,
 *::before,
 *::after {
@@ -742,9 +807,11 @@ header {
   align-items: center;
   flex-shrink: 0;
   border-radius: 25px;
-  border: 2px solid #5FB865;
-  background: #5FB865;
+  border: 2px solid #008aee;
+  background: #008aee;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 2px solid #5fb865;
+  background: #5fb865;
 }
 .autoExchange .autoExchangeDiv .autoExchangeFixed .autoExchangeFixedGearDiv {
   display: flex;
@@ -786,7 +853,7 @@ header {
   background: #fff;
 }
 .autoExchange .autoExchangeDiv .autoExchangeFixed .autoExchangeFixedButton button {
-  color: #5FB865;
+  color: #008aee;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -795,6 +862,7 @@ header {
   text-decoration: none;
   border: none;
   background-color: transparent;
+  color: #5fb865;
 }
 .autoExchange .autoExchangeDiv .autoExchangeMain {
   overflow: hidden;
@@ -832,7 +900,7 @@ header {
   width: 271px;
   height: 179.538px;
   border-radius: 15.651px;
-  border: 2px solid #5FB865;
+  border: 2px solid #5fb865;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -868,4 +936,287 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.servicesFixedFirst {
+  width: 100vw;
+  margin-top: 80.13px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.servicesFixedFirst .servicesFixedFirstDiv {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 32px;
+  width: 1180px;
+  height: 271px;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .autoExchangeServices {
+  display: flex;
+  width: 271px;
+  height: 271px;
+  padding: 25px 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #008aee;
+  background: #008aee;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 2px solid #63C7C9;
+  background: #63C7C9;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .autoExchangeServices .autoExchangeFixedCarDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .autoExchangeServices .autoExchangeFixedCarDiv img {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .autoExchangeServices .autoExchangeFixedCarDiv .partsHeading {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .autoExchangeServices .partsText {
+  align-self: stretch;
+  color: #ededed;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .autoExchangeServices .autoExchangeFixedButton {
+  display: flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #fff;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .autoExchangeServices .autoExchangeFixedButton button {
+  color: #008aee;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #63C7C9;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .sellingServices {
+  display: flex;
+  width: 271px;
+  height: 271px;
+  padding: 25px 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #008aee;
+  background: #008aee;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 2px solid #DC5426;
+  background: #DC5426;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .sellingServices .sellingServicesFixedWheelDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .sellingServices .sellingServicesFixedWheelDiv img {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .sellingServices .sellingServicesFixedWheelDiv .partsHeading {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .sellingServices .partsText {
+  align-self: stretch;
+  color: #ededed;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .sellingServices .sellingServicesButton {
+  display: flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #fff;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .sellingServices .sellingServicesButton button {
+  color: #008aee;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #DC5426;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .partsFixed {
+  display: flex;
+  width: 271px;
+  height: 271px;
+  padding: 25px 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #008aee;
+  background: #008aee;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 2px solid #E59D48;
+  background: #E59D48;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .partsFixed .partsFixedGearDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .partsFixed .partsFixedGearDiv img {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .partsFixed .partsFixedGearDiv .partsHeading {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .partsFixed .partsText {
+  align-self: stretch;
+  color: #ededed;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .partsFixed .partsFixedButton {
+  display: flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #fff;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .partsFixed .partsFixedButton button {
+  color: #008aee;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #E59D48;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .gamesFixed {
+  display: flex;
+  width: 271px;
+  height: 271px;
+  padding: 25px 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #008aee;
+  background: #008aee;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 2px solid #BD5FE9;
+  background: #BD5FE9;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .gamesFixed .gamesFixedControllerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .gamesFixed .gamesFixedControllerDiv img {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .gamesFixed .gamesFixedControllerDiv .partsHeading {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .gamesFixed .partsText {
+  align-self: stretch;
+  color: #ededed;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .gamesFixed .gamesFixedButton {
+  display: flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+  background: #fff;
+}
+.servicesFixedFirst .servicesFixedFirstDiv .gamesFixed .gamesFixedButton button {
+  color: #008aee;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #BD5FE9;
 }/*# sourceMappingURL=landingPage.css.map */
