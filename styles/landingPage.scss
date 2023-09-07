@@ -420,6 +420,8 @@ header {
   width: 100vw;
   margin-top: 42px;
   .autoPartsDiv {
+    display: flex;
+    gap: 32px;
     width: 1180px;
     height: 277.747px;
     flex-shrink: 0;
@@ -477,7 +479,7 @@ header {
         background: #fff;
         button {
           color: #008aee;
-          font-family: 'Roboto', sans-serif;
+          font-family: "Roboto", sans-serif;
           font-size: 18px;
           font-style: normal;
           font-weight: 700;
@@ -487,16 +489,94 @@ header {
           background-color: transparent;
         }
       }
-      //   <div class="autoPartsFixed">
-      //   <div class="autoPartsFixedGearDiv">
-      //     <img src="/resources/gearIconSvg.svg" alt="">
-      //     <p class="partsHeading">Авточасти</p>
-      //   </div>
-      //   <p class="partsText">Най-големият онлайн магазин за авточасти в България!</p>
-      //   <div class="autoPartsFixedButton">
-      //     <button>Разгледай! <img src="/resources/arrowForwardSvg.svg" alt=""></button>
-      //   </div>
-      // </div>
+    }
+    .autoPartsMain {
+      .autoPartsHeading {
+        width: 229px;
+        height: fit-content;
+        flex-shrink: 0;
+        p {
+          color: #19242d;
+          align-self: stretch;
+          font-family: "Exo 2", sans-serif;
+          font-family: "Questrial", sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+      .autoPartsSlider {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 32px;
+        .productUnit {
+          display: flex;
+          width: 271px;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 4.972px;
+          img {
+            width: 271px;
+            height: 179.538px;
+            border-radius: 15.651px;
+            border: 2px solid #008aee;
+            object-fit: cover;
+          }
+          .productDescription {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2.983px;
+            align-self: stretch;
+            .productName {
+              align-self: stretch;
+              color: #19242d;
+              font-family: "Exo 2", sans-serif;
+              font-family: "Questrial", sans-serif;
+              font-size: 14.608px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+            .productCatAndPrice {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              align-self: stretch;
+              .productCategory {
+                color: #999;
+                font-family: "Exo 2", sans-serif;
+                font-family: "Questrial", sans-serif;
+                font-size: 12.521px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+              }
+              .productPrice {
+                color: #5fb865;
+                text-align: right;
+                font-family: "Exo 2", sans-serif;
+                font-family: "Questrial", sans-serif;
+                font-size: 18.782px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+              }
+            }
+          }
+        }
+        // <div class="productUnit">
+        //       <img src="" alt="">
+        //       <div class="productDescription">
+        //         <p class="productName"></p>
+        //         <div class="productCatAndPrice">
+        //           <p class="productCategory"></p>
+        //           <p class="productPrice"></p>
+        //         </div>
+        //       </div>
+        //     </div>
+      }
     }
   }
 }
