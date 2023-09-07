@@ -624,6 +624,7 @@ header {
   gap: 10px;
   border-radius: 25px;
   background: #fff;
+  margin-bottom: 10px;
 }
 .autoParts .autoPartsDiv .autoPartsFixed .autoPartsFixedButton button {
   color: #008aee;
@@ -786,6 +787,7 @@ header {
   gap: 10px;
   border-radius: 25px;
   background: #fff;
+  margin-bottom: 10px;
 }
 .autoExchange .autoExchangeDiv .autoExchangeFixed .autoExchangeFixedButton button {
   color: #008aee;
@@ -899,8 +901,8 @@ header {
   border: 2px solid #008aee;
   background: #008aee;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  border: 2px solid #63C7C9;
-  background: #63C7C9;
+  border: 2px solid #63c7c9;
+  background: #63c7c9;
 }
 .servicesFixedFirst .servicesFixedFirstDiv .autoExchangeServices .autoExchangeFixedCarDiv {
   display: flex;
@@ -941,6 +943,7 @@ header {
   gap: 10px;
   border-radius: 25px;
   background: #fff;
+  margin-bottom: 10px;
 }
 .servicesFixedFirst .servicesFixedFirstDiv .autoExchangeServices .autoExchangeFixedButton button {
   color: #008aee;
@@ -952,7 +955,7 @@ header {
   text-decoration: none;
   border: none;
   background-color: transparent;
-  color: #63C7C9;
+  color: #63c7c9;
 }
 .servicesFixedFirst .servicesFixedFirstDiv .sellingServices {
   display: flex;
@@ -966,8 +969,8 @@ header {
   border: 2px solid #008aee;
   background: #008aee;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  border: 2px solid #DC5426;
-  background: #DC5426;
+  border: 2px solid #dc5426;
+  background: #dc5426;
 }
 .servicesFixedFirst .servicesFixedFirstDiv .sellingServices .sellingServicesFixedWheelDiv {
   display: flex;
@@ -1008,6 +1011,8 @@ header {
   gap: 10px;
   border-radius: 25px;
   background: #fff;
+  margin-bottom: 10px;
+  transform: translateY(20px);
 }
 .servicesFixedFirst .servicesFixedFirstDiv .sellingServices .sellingServicesButton button {
   color: #008aee;
@@ -1019,7 +1024,7 @@ header {
   text-decoration: none;
   border: none;
   background-color: transparent;
-  color: #DC5426;
+  color: #dc5426;
 }
 .servicesFixedFirst .servicesFixedFirstDiv .partsFixed {
   display: flex;
@@ -1033,8 +1038,8 @@ header {
   border: 2px solid #008aee;
   background: #008aee;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  border: 2px solid #E59D48;
-  background: #E59D48;
+  border: 2px solid #e59d48;
+  background: #e59d48;
 }
 .servicesFixedFirst .servicesFixedFirstDiv .partsFixed .partsFixedGearDiv {
   display: flex;
@@ -1075,6 +1080,8 @@ header {
   gap: 10px;
   border-radius: 25px;
   background: #fff;
+  margin-bottom: 10px;
+  transform: translateY(20px);
 }
 .servicesFixedFirst .servicesFixedFirstDiv .partsFixed .partsFixedButton button {
   color: #008aee;
@@ -1086,7 +1093,7 @@ header {
   text-decoration: none;
   border: none;
   background-color: transparent;
-  color: #E59D48;
+  color: #e59d48;
 }
 .servicesFixedFirst .servicesFixedFirstDiv .gamesFixed {
   display: flex;
@@ -1100,8 +1107,8 @@ header {
   border: 2px solid #008aee;
   background: #008aee;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  border: 2px solid #BD5FE9;
-  background: #BD5FE9;
+  border: 2px solid #bd5fe9;
+  background: #bd5fe9;
 }
 .servicesFixedFirst .servicesFixedFirstDiv .gamesFixed .gamesFixedControllerDiv {
   display: flex;
@@ -1142,6 +1149,7 @@ header {
   gap: 10px;
   border-radius: 25px;
   background: #fff;
+  margin-bottom: 10px;
 }
 .servicesFixedFirst .servicesFixedFirstDiv .gamesFixed .gamesFixedButton button {
   color: #008aee;
@@ -1153,7 +1161,7 @@ header {
   text-decoration: none;
   border: none;
   background-color: transparent;
-  color: #BD5FE9;
+  color: #bd5fe9;
 }
 
 .mega {
@@ -1163,4 +1171,20 @@ header {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+.megaAnchorP {
+  transform: translateY(-5px);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.megaVector {
+  fill: #fff;
+  width: 9.185px;
+  height: 5px;
 }/*# sourceMappingURL=landingPage.css.map */

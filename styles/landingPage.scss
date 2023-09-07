@@ -656,8 +656,8 @@ header {
     height: 271px;
     .autoExchangeServices {
       @include card;
-      border: 2px solid #63C7C9;
-      background: #63C7C9;
+      border: 2px solid #63c7c9;
+      background: #63c7c9;
 
       .autoExchangeFixedCarDiv {
         @include cardDiv;
@@ -676,15 +676,15 @@ header {
         @include cardButton;
         button {
           @include cardButtonBtn;
-          color: #63C7C9;
+          color: #63c7c9;
         }
       }
     }
 
     .sellingServices {
       @include card;
-      border: 2px solid #DC5426;
-      background: #DC5426;
+      border: 2px solid #dc5426;
+      background: #dc5426;
 
       .sellingServicesFixedWheelDiv {
         @include cardDiv;
@@ -701,16 +701,17 @@ header {
       }
       .sellingServicesButton {
         @include cardButton;
+        transform: translateY(20px);
         button {
           @include cardButtonBtn;
-          color: #DC5426;
+          color: #dc5426;
         }
       }
     }
     .partsFixed {
       @include card;
-      border: 2px solid #E59D48;
-      background: #E59D48;
+      border: 2px solid #e59d48;
+      background: #e59d48;
 
       .partsFixedGearDiv {
         @include cardDiv;
@@ -727,16 +728,18 @@ header {
       }
       .partsFixedButton {
         @include cardButton;
+        transform: translateY(20px);
+
         button {
           @include cardButtonBtn;
-          color: #E59D48;
+          color: #e59d48;
         }
       }
     }
     .gamesFixed {
       @include card;
-      border: 2px solid #BD5FE9;
-      background: #BD5FE9;
+      border: 2px solid #bd5fe9;
+      background: #bd5fe9;
 
       .gamesFixedControllerDiv {
         @include cardDiv;
@@ -755,18 +758,34 @@ header {
         @include cardButton;
         button {
           @include cardButtonBtn;
-          color: #BD5FE9;
+          color: #bd5fe9;
         }
       }
     }
   }
 }
 
-.mega{
+.mega {
   color: #ededed;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+.megaAnchorP {
+  transform: translateY(-5px);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.megaVector {
+  fill: #fff;
+  width: 9.185px;
+  height: 5px;
 }
