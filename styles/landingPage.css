@@ -636,6 +636,9 @@ header {
   border: none;
   background-color: transparent;
 }
+.autoParts .autoPartsDiv .autoPartsMain {
+  overflow: hidden;
+}
 .autoParts .autoPartsDiv .autoPartsMain .autoPartsHeading {
   width: 229px;
   height: -moz-fit-content;
