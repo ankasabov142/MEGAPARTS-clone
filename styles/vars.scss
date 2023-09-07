@@ -43,3 +43,9 @@ $backgroundColorSearchDiv: #008aee;
   font-weight: 500;
   line-height: normal;
 }
+
+@mixin imgBanner{
+  height: 299px;
+  width: 100vw;
+  object-fit:fill;
+}
