@@ -290,8 +290,8 @@ header {
         p {
           @include frameText;
           color: #fefefe;
-
         }
+        
       }
       .frame2 {
         @include frame;
