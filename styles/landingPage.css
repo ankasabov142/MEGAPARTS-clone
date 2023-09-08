@@ -1254,7 +1254,7 @@ header {
   border: 2px solid #dc5426;
   background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  border: 2px solid #5FB865;
+  border: 2px solid #5fb865;
 }
 .servicesFixedSecond .servicesWrapper .serviceCredits .serviceCreditsSvg {
   display: flex;
@@ -1273,7 +1273,7 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: #5FB865;
+  color: #5fb865;
 }
 .servicesFixedSecond .servicesWrapper .serviceCredits .serviceCreditsDescription {
   color: #999;
@@ -1298,7 +1298,7 @@ header {
   border: 2px solid #dc5426;
   background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  border: 2px solid #008AEE;
+  border: 2px solid #008aee;
 }
 .servicesFixedSecond .servicesWrapper .serviceDiary .serviceDiarySvg {
   display: flex;
@@ -1317,7 +1317,7 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: #008AEE;
+  color: #008aee;
 }
 .servicesFixedSecond .servicesWrapper .serviceDiary .serviceDiaryDescription {
   color: #999;
@@ -1342,7 +1342,7 @@ header {
   border: 2px solid #dc5426;
   background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  border: 2px solid #0043EE;
+  border: 2px solid #0043ee;
 }
 .servicesFixedSecond .servicesWrapper .serviceNews .serviceNewsSvg {
   display: flex;
@@ -1361,7 +1361,7 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: #0043EE;
+  color: #0043ee;
 }
 .servicesFixedSecond .servicesWrapper .serviceNews .serviceNewsDescription {
   color: #999;
@@ -1402,4 +1402,180 @@ header {
   width: 57.852px;
   height: 65.087px;
   flex-shrink: 0;
+}
+
+.opinions {
+  width: 100%;
+  margin-top: 80px;
+}
+.opinions .list-opinions {
+  width: 1150px;
+  height: 261px;
+  list-style-type: none;
+  margin: 0;
+}
+.opinions .list-opinions .right-1 {
+  right: 0;
+}
+.opinions .list-opinions .right-2 {
+  right: 10%;
+}
+.opinions .list-opinions .left-1 {
+  left: 0;
+}
+.opinions .list-opinions .left-2 {
+  left: 10%;
+}
+.opinions .list-opinions .opinion-1 {
+  width: 350px;
+  height: 154px;
+  padding: 15px;
+  flex-shrink: 0px;
+  border-radius: 14.731px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  z-index: 1;
+}
+.opinions .list-opinions .opinion-1 .frame-172 {
+  height: auto;
+  gap: 20px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.opinions .list-opinions .opinion-1 .frame-172 svg {
+  width: 16.885px;
+  height: 15.32px;
+  flex-shrink: 0;
+}
+.opinions .list-opinions .opinion-1 .frame-172 .opin-text {
+  color: #19242d;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 9.428px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: stretch;
+}
+.opinions .list-opinions .opinion-1 .frame-171 {
+  gap: 6px;
+}
+.opinions .list-opinions .opinion-1 .frame-171 .name {
+  color: #008aee;
+  font-family: "Roboto";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.opinions .list-opinions .opinion-1 .frame-171 .frame-355 {
+  gap: 4px;
+}
+.opinions .list-opinions .opinion-2 {
+  width: 450px;
+  height: 197px;
+  padding: 18.9px;
+  flex-shrink: 0px;
+  border-radius: 18.931px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+}
+.opinions .list-opinions .opinion-2 .frame-172 {
+  height: auto;
+  gap: 15px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.opinions .list-opinions .opinion-2 .frame-172 svg {
+  width: 21.71px;
+  height: 19.697px;
+  flex-shrink: 0;
+}
+.opinions .list-opinions .opinion-2 .frame-172 .opin-text {
+  color: #19242d;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 12.121px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: stretch;
+}
+.opinions .list-opinions .opinion-2 .frame-171 {
+  gap: 7.5px;
+}
+.opinions .list-opinions .opinion-2 .frame-171 .name {
+  color: #008aee;
+  font-family: "Roboto";
+  font-size: 12.121px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.opinions .list-opinions .opinion-2 .frame-171 .frame-355 {
+  gap: 4px;
+}
+.opinions .list-opinions .opinion-3 {
+  width: 594px;
+  height: 261px;
+  padding: 25px;
+  flex-shrink: 0px;
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  z-index: 3;
+}
+.opinions .list-opinions .opinion-3 .frame-172 {
+  height: auto;
+  gap: 20px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.opinions .list-opinions .opinion-3 .frame-172 svg {
+  width: 28.657px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.opinions .list-opinions .opinion-3 .frame-172 .opin-text {
+  color: #19242d;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: stretch;
+}
+.opinions .list-opinions .opinion-3 .frame-171 {
+  gap: 10px;
+}
+.opinions .list-opinions .opinion-3 .frame-171 .name {
+  color: #008aee;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.opinions .list-opinions .opinion-3 .frame-171 .frame-355 {
+  gap: 4px;
+}
+.opinions .left-btn {
+  flex-shrink: 0;
+  fill: #008aee;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+  z-index: 4;
+  left: 30%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.opinions .right-btn {
+  flex-shrink: 0;
+  fill: #008aee;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+  z-index: 4;
+  right: 30%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }/*# sourceMappingURL=landingPage.css.map */
