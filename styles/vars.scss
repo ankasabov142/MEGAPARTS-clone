@@ -50,7 +50,7 @@ $backgroundColorSearchDiv: #008aee;
   object-fit: fill;
 }
 
-@mixin card{
+@mixin card {
   display: flex;
   width: 271px;
   height: 271px;
@@ -64,12 +64,11 @@ $backgroundColorSearchDiv: #008aee;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
-
-@mixin cardDiv{
+@mixin cardDiv {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 @mixin cardImg {
