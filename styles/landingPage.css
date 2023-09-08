@@ -1012,7 +1012,7 @@ header {
   border-radius: 25px;
   background: #fff;
   margin-bottom: 10px;
-  transform: translateY(20px);
+  transform: translateY(28px);
 }
 .servicesFixedFirst .servicesFixedFirstDiv .sellingServices .sellingServicesButton button {
   color: #008aee;
@@ -1081,7 +1081,7 @@ header {
   border-radius: 25px;
   background: #fff;
   margin-bottom: 10px;
-  transform: translateY(20px);
+  transform: translateY(40px);
 }
 .servicesFixedFirst .servicesFixedFirstDiv .partsFixed .partsFixedButton button {
   color: #008aee;
@@ -1375,6 +1375,212 @@ header {
   line-height: normal;
 }
 
+.opinionSection .d-flex {
+  display: flex;
+}
+.opinionSection .flex-row {
+  flex-direction: row;
+}
+.opinionSection .align-items-center {
+  align-items: center;
+}
+.opinionSection .justify-content-center {
+  justify-content: center;
+}
+.opinionSection .position-relative {
+  position: relative;
+}
+.opinionSection .flex-column {
+  flex-direction: column;
+}
+.opinionSection .justify-content-between {
+  justify-content: space-between;
+}
+.opinionSection .position-absolute {
+  position: absolute;
+}
+.opinionSection .align-items-start {
+  align-items: start;
+}
+.opinionSection .align-self-stretch {
+  align-self: stretch;
+}
+.opinionSection .opinions {
+  width: 100%;
+  margin-top: 80px;
+}
+.opinionSection .opinions .list-opinions {
+  width: 1150px;
+  height: 261px;
+  list-style-type: none;
+  margin: 0;
+}
+.opinionSection .opinions .list-opinions .right-1 {
+  right: 0;
+}
+.opinionSection .opinions .list-opinions .right-2 {
+  right: 10%;
+}
+.opinionSection .opinions .list-opinions .left-1 {
+  left: 0;
+}
+.opinionSection .opinions .list-opinions .left-2 {
+  left: 10%;
+}
+.opinionSection .opinions .list-opinions .opinion-1 {
+  width: 350px;
+  height: 154px;
+  padding: 15px;
+  flex-shrink: 0px;
+  border-radius: 14.731px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  z-index: 1;
+}
+.opinionSection .opinions .list-opinions .opinion-1 .frame-172 {
+  height: auto;
+  gap: 20px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.opinionSection .opinions .list-opinions .opinion-1 .frame-172 svg {
+  width: 16.885px;
+  height: 15.32px;
+  flex-shrink: 0;
+}
+.opinionSection .opinions .list-opinions .opinion-1 .frame-172 .opin-text {
+  color: #19242d;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 9.428px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: stretch;
+}
+.opinionSection .opinions .list-opinions .opinion-1 .frame-171 {
+  gap: 6px;
+}
+.opinionSection .opinions .list-opinions .opinion-1 .frame-171 .name {
+  color: #008aee;
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.opinionSection .opinions .list-opinions .opinion-1 .frame-171 .frame-355 {
+  gap: 4px;
+}
+.opinionSection .opinions .list-opinions .opinion-2 {
+  width: 450px;
+  height: 197px;
+  padding: 18.9px;
+  flex-shrink: 0px;
+  border-radius: 18.931px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+}
+.opinionSection .opinions .list-opinions .opinion-2 .frame-172 {
+  height: auto;
+  gap: 15px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.opinionSection .opinions .list-opinions .opinion-2 .frame-172 svg {
+  width: 21.71px;
+  height: 19.697px;
+  flex-shrink: 0;
+}
+.opinionSection .opinions .list-opinions .opinion-2 .frame-172 .opin-text {
+  color: #19242d;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 12.121px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: stretch;
+}
+.opinionSection .opinions .list-opinions .opinion-2 .frame-171 {
+  gap: 7.5px;
+}
+.opinionSection .opinions .list-opinions .opinion-2 .frame-171 .name {
+  color: #008aee;
+  font-family: "Roboto", sans-serif;
+  font-size: 12.121px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.opinionSection .opinions .list-opinions .opinion-2 .frame-171 .frame-355 {
+  gap: 4px;
+}
+.opinionSection .opinions .list-opinions .opinion-3 {
+  width: 594px;
+  height: 261px;
+  padding: 25px;
+  flex-shrink: 0px;
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  z-index: 3;
+}
+.opinionSection .opinions .list-opinions .opinion-3 .frame-172 {
+  height: auto;
+  gap: 20px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.opinionSection .opinions .list-opinions .opinion-3 .frame-172 svg {
+  width: 28.657px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.opinionSection .opinions .list-opinions .opinion-3 .frame-172 .opin-text {
+  color: #19242d;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: stretch;
+}
+.opinionSection .opinions .list-opinions .opinion-3 .frame-171 {
+  gap: 10px;
+}
+.opinionSection .opinions .list-opinions .opinion-3 .frame-171 .name {
+  color: #008aee;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.opinionSection .opinions .list-opinions .opinion-3 .frame-171 .frame-355 {
+  gap: 4px;
+}
+.opinionSection .opinions .left-btn {
+  flex-shrink: 0;
+  fill: #008aee;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+  z-index: 4;
+  left: 30%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.opinionSection .opinions .right-btn {
+  flex-shrink: 0;
+  fill: #008aee;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+  z-index: 4;
+  right: 30%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
 .map {
   position: relative;
   width: 100vw;
@@ -1389,7 +1595,7 @@ header {
 }
 .map .pin1 {
   top: 32%;
-  left: 29.6%;
+  left: 20.7%;
   position: absolute;
   width: 57.852px;
   height: 65.087px;
@@ -1397,185 +1603,9 @@ header {
 }
 .map .pin2 {
   top: 17%;
-  right: 28.75%;
+  right: 19.45%;
   position: absolute;
   width: 57.852px;
   height: 65.087px;
   flex-shrink: 0;
-}
-
-.opinions {
-  width: 100%;
-  margin-top: 80px;
-}
-.opinions .list-opinions {
-  width: 1150px;
-  height: 261px;
-  list-style-type: none;
-  margin: 0;
-}
-.opinions .list-opinions .right-1 {
-  right: 0;
-}
-.opinions .list-opinions .right-2 {
-  right: 10%;
-}
-.opinions .list-opinions .left-1 {
-  left: 0;
-}
-.opinions .list-opinions .left-2 {
-  left: 10%;
-}
-.opinions .list-opinions .opinion-1 {
-  width: 350px;
-  height: 154px;
-  padding: 15px;
-  flex-shrink: 0px;
-  border-radius: 14.731px;
-  background: #fff;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
-  z-index: 1;
-}
-.opinions .list-opinions .opinion-1 .frame-172 {
-  height: auto;
-  gap: 20px;
-  flex-shrink: 0;
-  align-self: stretch;
-}
-.opinions .list-opinions .opinion-1 .frame-172 svg {
-  width: 16.885px;
-  height: 15.32px;
-  flex-shrink: 0;
-}
-.opinions .list-opinions .opinion-1 .frame-172 .opin-text {
-  color: #19242d;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 9.428px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  align-self: stretch;
-}
-.opinions .list-opinions .opinion-1 .frame-171 {
-  gap: 6px;
-}
-.opinions .list-opinions .opinion-1 .frame-171 .name {
-  color: #008aee;
-  font-family: "Roboto";
-  font-size: 9px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.opinions .list-opinions .opinion-1 .frame-171 .frame-355 {
-  gap: 4px;
-}
-.opinions .list-opinions .opinion-2 {
-  width: 450px;
-  height: 197px;
-  padding: 18.9px;
-  flex-shrink: 0px;
-  border-radius: 18.931px;
-  background: #fff;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
-  z-index: 2;
-}
-.opinions .list-opinions .opinion-2 .frame-172 {
-  height: auto;
-  gap: 15px;
-  flex-shrink: 0;
-  align-self: stretch;
-}
-.opinions .list-opinions .opinion-2 .frame-172 svg {
-  width: 21.71px;
-  height: 19.697px;
-  flex-shrink: 0;
-}
-.opinions .list-opinions .opinion-2 .frame-172 .opin-text {
-  color: #19242d;
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 12.121px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  align-self: stretch;
-}
-.opinions .list-opinions .opinion-2 .frame-171 {
-  gap: 7.5px;
-}
-.opinions .list-opinions .opinion-2 .frame-171 .name {
-  color: #008aee;
-  font-family: "Roboto";
-  font-size: 12.121px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.opinions .list-opinions .opinion-2 .frame-171 .frame-355 {
-  gap: 4px;
-}
-.opinions .list-opinions .opinion-3 {
-  width: 594px;
-  height: 261px;
-  padding: 25px;
-  flex-shrink: 0px;
-  border-radius: 25px;
-  background: #fff;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
-  z-index: 3;
-}
-.opinions .list-opinions .opinion-3 .frame-172 {
-  height: auto;
-  gap: 20px;
-  flex-shrink: 0;
-  align-self: stretch;
-}
-.opinions .list-opinions .opinion-3 .frame-172 svg {
-  width: 28.657px;
-  height: 26px;
-  flex-shrink: 0;
-}
-.opinions .list-opinions .opinion-3 .frame-172 .opin-text {
-  color: #19242d;
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  align-self: stretch;
-}
-.opinions .list-opinions .opinion-3 .frame-171 {
-  gap: 10px;
-}
-.opinions .list-opinions .opinion-3 .frame-171 .name {
-  color: #008aee;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.opinions .list-opinions .opinion-3 .frame-171 .frame-355 {
-  gap: 4px;
-}
-.opinions .left-btn {
-  flex-shrink: 0;
-  fill: #008aee;
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
-  z-index: 4;
-  left: 30%;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-.opinions .right-btn {
-  flex-shrink: 0;
-  fill: #008aee;
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
-  z-index: 4;
-  right: 30%;
-  transform: translateY(-50%);
-  cursor: pointer;
 }/*# sourceMappingURL=landingPage.css.map */

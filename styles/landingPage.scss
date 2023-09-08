@@ -701,7 +701,7 @@ header {
       }
       .sellingServicesButton {
         @include cardButton;
-        transform: translateY(20px);
+        transform: translateY(28px);
         button {
           @include cardButtonBtn;
           color: #dc5426;
@@ -728,7 +728,7 @@ header {
       }
       .partsFixedButton {
         @include cardButton;
-        transform: translateY(20px);
+        transform: translateY(40px);
 
         button {
           @include cardButtonBtn;
@@ -868,6 +868,193 @@ header {
   }
 }
 
+.opinionSection {
+  @include bootstrap;
+  .opinions {
+    width: 100%;
+    margin-top: 80px;
+    .list-opinions {
+      width: 1150px;
+      height: 261px;
+      list-style-type: none;
+      margin: 0;
+
+      .right-1 {
+        right: 0;
+      }
+      .right-2 {
+        right: 10%;
+      }
+
+      .left-1 {
+        left: 0;
+      }
+      .left-2 {
+        left: 10%;
+      }
+      .opinion-1 {
+        width: 350px;
+        height: 154px;
+        padding: 15px;
+        flex-shrink: 0px;
+        border-radius: 14.731px;
+        background: #fff;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+        z-index: 1;
+        .frame-172 {
+          height: auto;
+          gap: 20px;
+          flex-shrink: 0;
+          align-self: stretch;
+
+          svg {
+            width: 16.885px;
+            height: 15.32px;
+            flex-shrink: 0;
+          }
+          .opin-text {
+            color: #19242d;
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-size: 9.428px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            align-self: stretch;
+          }
+        }
+
+        .frame-171 {
+          gap: 6px;
+          .name {
+            color: #008aee;
+            font-family: "Roboto", sans-serif;
+            font-size: 9px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+          .frame-355 {
+            gap: 4px;
+          }
+        }
+      }
+      .opinion-2 {
+        width: 450px;
+        height: 197px;
+        padding: 18.9px;
+        flex-shrink: 0px;
+        border-radius: 18.931px;
+        background: #fff;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+        z-index: 2;
+        .frame-172 {
+          height: auto;
+          gap: 15px;
+          flex-shrink: 0;
+          align-self: stretch;
+
+          svg {
+            width: 21.71px;
+            height: 19.697px;
+            flex-shrink: 0;
+          }
+          .opin-text {
+            color: #19242d;
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-size: 12.121px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            align-self: stretch;
+          }
+        }
+
+        .frame-171 {
+          gap: 7.5px;
+          .name {
+            color: #008aee;
+            font-family: "Roboto", sans-serif;
+            font-size: 12.121px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+          .frame-355 {
+            gap: 4px;
+          }
+        }
+      }
+      .opinion-3 {
+        width: 594px;
+        height: 261px;
+        padding: 25px;
+        flex-shrink: 0px;
+        border-radius: 25px;
+        background: #fff;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+        z-index: 3;
+        .frame-172 {
+          height: auto;
+          gap: 20px;
+          flex-shrink: 0;
+          align-self: stretch;
+
+          svg {
+            width: 28.657px;
+            height: 26px;
+            flex-shrink: 0;
+          }
+          .opin-text {
+            color: #19242d;
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            align-self: stretch;
+          }
+        }
+
+        .frame-171 {
+          gap: 10px;
+          .name {
+            color: #008aee;
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+          .frame-355 {
+            gap: 4px;
+          }
+        }
+      }
+    }
+    .left-btn {
+      flex-shrink: 0;
+      fill: #008aee;
+      filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+      z-index: 4;
+      left: 30%;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+    .right-btn {
+      flex-shrink: 0;
+      fill: #008aee;
+      filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+      z-index: 4;
+      right: 30%;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  }
+}
+
 .map {
   position: relative;
   width: 100vw;
@@ -881,7 +1068,7 @@ header {
   }
   .pin1 {
     top: 32%;
-    left: 29.6%;
+    left: 20.7%;
     position: absolute;
     width: 57.852px;
     height: 65.087px;
@@ -889,195 +1076,11 @@ header {
   }
   .pin2 {
     top: 17%;
-    right: 28.75%;
+    right: 19.45%;
     position: absolute;
 
     width: 57.852px;
     height: 65.087px;
     flex-shrink: 0;
-  }
-}
-
-.opinions {
-  width: 100%;
-  margin-top: 80px;
-  .list-opinions {
-    width: 1150px;
-    height: 261px;
-    list-style-type: none;
-    margin: 0;
-
-    .right-1 {
-      right: 0;
-    }
-    .right-2 {
-      right: 10%;
-    }
-
-    .left-1 {
-      left: 0;
-    }
-    .left-2 {
-      left: 10%;
-    }
-    .opinion-1 {
-      width: 350px;
-      height: 154px;
-      padding: 15px;
-      flex-shrink: 0px;
-      border-radius: 14.731px;
-      background: #fff;
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
-      z-index: 1;
-      .frame-172 {
-        height: auto;
-        gap: 20px;
-        flex-shrink: 0;
-        align-self: stretch;
-
-        svg {
-          width: 16.885px;
-          height: 15.32px;
-          flex-shrink: 0;
-        }
-        .opin-text {
-          color: #19242d;
-          text-align: center;
-          font-family: "Roboto", sans-serif;
-          font-size: 9.428px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
-          align-self: stretch;
-        }
-      }
-
-      .frame-171 {
-        gap: 6px;
-        .name {
-          color: #008aee;
-          font-family: "Roboto";
-          font-size: 9px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-        }
-        .frame-355 {
-          gap: 4px;
-        }
-      }
-    }
-    .opinion-2 {
-      width: 450px;
-      height: 197px;
-      padding: 18.9px;
-      flex-shrink: 0px;
-      border-radius: 18.931px;
-      background: #fff;
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
-      z-index: 2;
-      .frame-172 {
-        height: auto;
-        gap: 15px;
-        flex-shrink: 0;
-        align-self: stretch;
-
-        svg {
-          width: 21.71px;
-          height: 19.697px;
-          flex-shrink: 0;
-        }
-        .opin-text {
-          color: #19242d;
-          text-align: center;
-          font-family: "Roboto";
-          font-size: 12.121px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
-          align-self: stretch;
-        }
-      }
-
-      .frame-171 {
-        gap: 7.5px;
-        .name {
-          color: #008aee;
-          font-family: "Roboto";
-          font-size: 12.121px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-        }
-        .frame-355 {
-          gap: 4px;
-        }
-      }
-    }
-    .opinion-3 {
-      width: 594px;
-      height: 261px;
-      padding: 25px;
-      flex-shrink: 0px;
-      border-radius: 25px;
-      background: #fff;
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
-      z-index: 3;
-      .frame-172 {
-        height: auto;
-        gap: 20px;
-        flex-shrink: 0;
-        align-self: stretch;
-
-        svg {
-          width: 28.657px;
-          height: 26px;
-          flex-shrink: 0;
-        }
-        .opin-text {
-          color: #19242d;
-          text-align: center;
-          font-family: "Roboto";
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
-          align-self: stretch;
-        }
-      }
-
-      .frame-171 {
-        gap: 10px;
-        .name {
-          color: #008aee;
-          font-family: "Roboto";
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-        }
-        .frame-355 {
-          gap: 4px;
-        }
-      }
-    }
-  }
-  .left-btn {
-    flex-shrink: 0;
-    fill: #008aee;
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
-    z-index: 4;
-    left: 30%;
-    transform: translateY(-50%);
-    cursor: pointer;
-  }
-  .right-btn {
-    flex-shrink: 0;
-    fill: #008aee;
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
-    z-index: 4;
-    right: 30%;
-    transform: translateY(-50%);
-    cursor: pointer;
   }
 }

@@ -168,3 +168,40 @@ $backgroundColorSearchDiv: #008aee;
   font-weight: 500;
   line-height: normal;
 }
+
+@mixin bootstrap{
+  .d-flex{
+    display: flex;
+  }
+  
+  .flex-row{
+    flex-direction: row;
+  }
+  .align-items-center{
+    align-items: center;
+  }
+  
+  .justify-content-center{
+    justify-content: center;
+  }
+  
+  .position-relative{
+    position: relative;
+  }
+  .flex-column{
+    flex-direction: column;
+  }
+  
+  .justify-content-between{
+    justify-content: space-between;
+  }
+  .position-absolute{
+    position: absolute;
+  }
+  .align-items-start{
+    align-items: start;
+  }
+  .align-self-stretch{
+    align-self:stretch;
+  }
+}
