@@ -1587,6 +1587,7 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: 119px;
 }
 .map .mapSvg {
   width: 1179px;
@@ -1608,4 +1609,86 @@ header {
   width: 57.852px;
   height: 65.087px;
   flex-shrink: 0;
+}
+
+footer {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-shrink: 0;
+  background: #202d39;
+  justify-content: center;
+}
+footer .footerWrapper {
+  margin-top: 35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+footer .footerWrapper .aboutYouWrapper {
+  position: relative;
+  display: flex;
+  width: 271px;
+  height: 125px;
+  padding: 15px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background: #19242d;
+}
+footer .footerWrapper .aboutYouWrapper .aboutYou {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 46px;
+}
+footer .footerWrapper .aboutYouWrapper .aboutYou .secHelpfull {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+footer .footerWrapper .aboutYouWrapper .aboutYou .secHelpfull .aboutYouHeading {
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer .footerWrapper .aboutYouWrapper .aboutYou .secHelpfull .aboutYouParagraph {
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+footer .footerWrapper .aboutYouWrapper .aboutYou .carRating {
+  top: 110%;
+  left: 0%;
+  position: absolute;
+  display: flex;
+  width: 271px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #19242d;
+}
+footer .footerWrapper .aboutYouWrapper .aboutYou .carRating .carRatingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+footer .footerWrapper .aboutYouWrapper .aboutYou .carRating .carRatingWrapper p {
+  color: #5fb865;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }/*# sourceMappingURL=landingPage.css.map */
