@@ -1691,4 +1691,44 @@ footer .footerWrapper .aboutYouWrapper .aboutYou .carRating .carRatingWrapper p 
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+footer .footerWrapper .onlineShopping {
+  display: flex;
+  width: 271px;
+  height: 190px;
+  padding: 15px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background: #19242d;
+}
+footer .footerWrapper .onlineShopping .onlineShoppingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+footer .footerWrapper .onlineShopping .onlineShoppingWrapper .onlineHeader {
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer .footerWrapper .onlineShopping .onlineShoppingWrapper .onlineParagraphs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+footer .footerWrapper .onlineShopping .onlineShoppingWrapper .onlineParagraphs p {
+  align-self: stretch;
+  color: #fefefe;
+  font-family: "Exo 2";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }/*# sourceMappingURL=landingPage.css.map */
