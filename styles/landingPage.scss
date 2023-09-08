@@ -789,3 +789,81 @@ header {
   width: 9.185px;
   height: 5px;
 }
+
+.servicesFixedSecond {
+  display: flex;
+  margin-top:32px ;
+  justify-content: center;
+  .servicesWrapper {
+    display: flex;
+    width: 1179px;
+    align-items: flex-start;
+    gap: 32px;
+    .serviceInsurance {
+      @include cardService;
+      .insuranceSvg {
+        @include serviceSvg;
+        img {
+          @include serviceImg;
+        }
+        p {
+          @include serviceParagraph;
+        }
+      }
+      .insuranceDescription {
+        @include serviceDescription;
+      }
+    }
+    .serviceCredits {
+      @include cardService;
+      border: 2px solid #5FB865;
+      .serviceCreditsSvg {
+        @include serviceSvg;
+        img {
+          @include serviceImg;
+        }
+        p {
+          @include serviceParagraph;
+          color: #5FB865
+        }
+      }
+      .serviceCreditsDescription {
+        @include serviceDescription;
+      }
+    }
+    .serviceDiary {
+      @include cardService;
+      border: 2px solid #008AEE;
+      .serviceDiarySvg {
+        @include serviceSvg;
+        img {
+          @include serviceImg;
+        }
+        p {
+          @include serviceParagraph;
+          color: #008AEE;
+        }
+      }
+      .serviceDiaryDescription {
+        @include serviceDescription;
+      }
+    }
+    .serviceNews {
+      @include cardService;
+      border: 2px solid #0043EE;
+      .serviceNewsSvg {
+        @include serviceSvg;
+        img {
+          @include serviceImg;
+        }
+        p {
+          @include serviceParagraph;
+          color: #0043EE
+        }
+      }
+      .serviceNewsDescription {
+        @include serviceDescription;
+      }
+    }
+  }
+}

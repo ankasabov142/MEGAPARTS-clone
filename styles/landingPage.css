@@ -1,3 +1,46 @@
+.serviceInsurance {
+  display: flex;
+  width: 271px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #dc5426;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.serviceInsurance .insuranceSvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.serviceInsurance .insuranceSvg img {
+  width: 17.778px;
+  height: 16px;
+}
+.serviceInsurance .insuranceSvg p {
+  color: #dc5426;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.serviceInsurance .insuranceDescription {
+  color: #999;
+  text-align: center;
+  align-self: stretch;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -1187,4 +1230,190 @@ header {
   fill: #fff;
   width: 9.185px;
   height: 5px;
+}
+
+.servicesFixedSecond {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+}
+.servicesFixedSecond .servicesWrapper {
+  display: flex;
+  width: 1179px;
+  align-items: flex-start;
+  gap: 32px;
+}
+.servicesFixedSecond .servicesWrapper .serviceInsurance {
+  display: flex;
+  width: 241px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #dc5426;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.servicesFixedSecond .servicesWrapper .serviceInsurance .insuranceSvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.servicesFixedSecond .servicesWrapper .serviceInsurance .insuranceSvg img {
+  width: 17.778px;
+  height: 16px;
+}
+.servicesFixedSecond .servicesWrapper .serviceInsurance .insuranceSvg p {
+  color: #dc5426;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.servicesFixedSecond .servicesWrapper .serviceInsurance .insuranceDescription {
+  color: #999;
+  text-align: center;
+  align-self: stretch;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.servicesFixedSecond .servicesWrapper .serviceCredits {
+  display: flex;
+  width: 241px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #dc5426;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 2px solid #5FB865;
+}
+.servicesFixedSecond .servicesWrapper .serviceCredits .serviceCreditsSvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.servicesFixedSecond .servicesWrapper .serviceCredits .serviceCreditsSvg img {
+  width: 17.778px;
+  height: 16px;
+}
+.servicesFixedSecond .servicesWrapper .serviceCredits .serviceCreditsSvg p {
+  color: #dc5426;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #5FB865;
+}
+.servicesFixedSecond .servicesWrapper .serviceCredits .serviceCreditsDescription {
+  color: #999;
+  text-align: center;
+  align-self: stretch;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.servicesFixedSecond .servicesWrapper .serviceDiary {
+  display: flex;
+  width: 241px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #dc5426;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 2px solid #008AEE;
+}
+.servicesFixedSecond .servicesWrapper .serviceDiary .serviceDiarySvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.servicesFixedSecond .servicesWrapper .serviceDiary .serviceDiarySvg img {
+  width: 17.778px;
+  height: 16px;
+}
+.servicesFixedSecond .servicesWrapper .serviceDiary .serviceDiarySvg p {
+  color: #dc5426;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #008AEE;
+}
+.servicesFixedSecond .servicesWrapper .serviceDiary .serviceDiaryDescription {
+  color: #999;
+  text-align: center;
+  align-self: stretch;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.servicesFixedSecond .servicesWrapper .serviceNews {
+  display: flex;
+  width: 241px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #dc5426;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 2px solid #0043EE;
+}
+.servicesFixedSecond .servicesWrapper .serviceNews .serviceNewsSvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.servicesFixedSecond .servicesWrapper .serviceNews .serviceNewsSvg img {
+  width: 17.778px;
+  height: 16px;
+}
+.servicesFixedSecond .servicesWrapper .serviceNews .serviceNewsSvg p {
+  color: #dc5426;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #0043EE;
+}
+.servicesFixedSecond .servicesWrapper .serviceNews .serviceNewsDescription {
+  color: #999;
+  text-align: center;
+  align-self: stretch;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }/*# sourceMappingURL=landingPage.css.map */
