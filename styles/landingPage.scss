@@ -1205,22 +1205,88 @@ footer {
           }
         }
       }
-      //   <div class="onlineShoppingWrapper">
-      //   <div class="onlineHeader">
-      //     <p>Онлайн Пазаруване</p>
-      //   </div>
-      //   <div class="onlineParagraphs">
-      //     <p>Общи условия на платформата</p>
-      //     <p>Общи условия на MEGAPARTS Борса</p>
-      //     <p>Общи условия Вендор</p>
-      //     <p>Политика за използване на "бисквитки"</p>
-      //     <p>Политика за защита на лични данни</p>
-      //   </div>
-      // </div>
     }
     .aboutUs {
+      display: flex;
+      width: 271px;
+      height: 190px;
+      padding: 15px;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius: 10px;
+      background: #19242d;
+      .aboutUsWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        .auHeader {
+          color: #fff;
+          font-family: "Exo 2";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        .auP {
+          color: #fff;
+          font-family: "Exo 2";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
     }
     .rights {
+      .rightsWrapper {
+        display: flex;
+        width: 271px;
+        height: 170px; //170
+        padding: 25px 15px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+        background: #19242d;
+        .firstPart {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          gap: -9px;
+
+          p {
+            color: #999;
+            font-family: "Roboto";
+            width: 213px;
+            height: 23px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+        .secondPart {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+      //   <div class="rights">
+      //   <div class="rightsWrapper">
+      //     <div class="firstPart">
+      //       <img src="/resources/megapartsFooterLogo.svg" alt="" />
+      //       <p>2023 © MEGAPARTS Marketplace</p>
+      //     </div>
+      //     <div class="secondPart">
+      //       <img src="/resources/MEGACARS.png" alt="">
+      //       <img src="/resources/MEGAОБЯВИ.png" alt="">
+      //     </div>
+      //   </div>
+      // </div>
     }
   }
 }
