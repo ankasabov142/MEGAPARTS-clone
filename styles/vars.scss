@@ -35,7 +35,7 @@ $backgroundColorSearchDiv: #008aee;
 }
 
 @mixin frameText {
-  color: #19242d;
+  color: $backgroundColorRectangle1;
   font-family: "Exo 2", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
@@ -122,7 +122,7 @@ $backgroundColorSearchDiv: #008aee;
   background-color: transparent;
 }
 
-@mixin cardService{
+@mixin cardService {
   display: flex;
   width: 241px;
   padding: 15px;
@@ -136,19 +136,19 @@ $backgroundColorSearchDiv: #008aee;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
-@mixin serviceSvg{
+@mixin serviceSvg {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-@mixin serviceImg{
+@mixin serviceImg {
   width: 17.778px;
-      height: 16px;
+  height: 16px;
 }
 
-@mixin serviceParagraph{
+@mixin serviceParagraph {
   color: #dc5426;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -157,7 +157,7 @@ $backgroundColorSearchDiv: #008aee;
   line-height: normal;
 }
 
-@mixin serviceDescription{
+@mixin serviceDescription {
   color: #999;
   text-align: center;
   align-self: stretch;
@@ -167,51 +167,4 @@ $backgroundColorSearchDiv: #008aee;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}
-.serviceInsurance {
-//cardService
-  display: flex;
-  width: 271px;
-  padding: 15px;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 25px;
-  border: 2px solid #dc5426;
-  background: #fff;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  .insuranceSvg {
-    //serviceSvg
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    img {
-      //serviceImg
-      width: 17.778px;
-      height: 16px;
-    }
-    p {
-      //serviceParagraph
-      color: #dc5426;
-      font-family: "Roboto", sans-serif;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-    }
-  }
-  .insuranceDescription {
-    //serviceDescription
-    color: #999;
-    text-align: center;
-    align-self: stretch;
-    font-family: "Exo 2", sans-serif;
-    font-family: "Questrial", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
 }

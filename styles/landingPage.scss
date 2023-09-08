@@ -219,13 +219,13 @@ header {
       img {
         margin-top: 2px;
         stroke-width: 4px;
-        stroke: #19242d;
+        stroke: $backgroundColorRectangle1;
       }
       p {
         line-height: 31px;
         display: flex;
         padding: 0;
-        color: #19242d;
+        color: $backgroundColorRectangle1;
         font-family: "Exo 2", sans-serif;
         font-family: "Questrial", sans-serif;
         font-size: 26px;
@@ -361,7 +361,7 @@ header {
       height: 56px;
     }
     .serviceHeading {
-      color: #19242d;
+      color: $backgroundColorRectangle1;
       font-family: "Exo 2", sans-serif;
       font-family: "Questrial", sans-serif;
       font-size: 13px;
@@ -456,7 +456,7 @@ header {
         height: fit-content;
         flex-shrink: 0;
         p {
-          color: #19242d;
+          color: $backgroundColorRectangle1;
           align-self: stretch;
           font-family: "Exo 2", sans-serif;
           font-family: "Questrial", sans-serif;
@@ -491,7 +491,7 @@ header {
             align-self: stretch;
             .productName {
               align-self: stretch;
-              color: #19242d;
+              color: $backgroundColorRectangle1;
               font-family: "Exo 2", sans-serif;
               font-family: "Questrial", sans-serif;
               font-size: 14.608px;
@@ -576,7 +576,7 @@ header {
         flex-shrink: 0;
         margin-bottom: 12px;
         p {
-          color: #19242d;
+          color: $backgroundColorRectangle1;
           align-self: stretch;
           font-family: "Exo 2", sans-serif;
           font-family: "Questrial", sans-serif;
@@ -611,7 +611,7 @@ header {
             align-self: stretch;
             .autoExchangeProductName {
               align-self: stretch;
-              color: #19242d;
+              color: $backgroundColorRectangle1;
               font-family: "Exo 2", sans-serif;
               font-family: "Questrial", sans-serif;
               font-size: 16px;
@@ -865,5 +865,35 @@ header {
         @include serviceDescription;
       }
     }
+  }
+}
+
+.map{
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  .mapSvg{
+    width: 1179px;
+height: 686.85px;
+flex-shrink: 0; 
+  }
+  .pin1{
+    top: 32%;
+    left: 29.6%;
+    position: absolute;
+    width: 57.852px;
+height: 65.087px;
+flex-shrink: 0; 
+  }
+  .pin2{
+    top: 17%;
+    right: 28.75%;
+    position: absolute;
+
+    width: 57.852px;
+height: 65.087px;
+flex-shrink: 0; 
   }
 }

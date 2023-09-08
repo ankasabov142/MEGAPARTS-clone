@@ -1,46 +1,3 @@
-.serviceInsurance {
-  display: flex;
-  width: 271px;
-  padding: 15px;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 25px;
-  border: 2px solid #dc5426;
-  background: #fff;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-}
-.serviceInsurance .insuranceSvg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.serviceInsurance .insuranceSvg img {
-  width: 17.778px;
-  height: 16px;
-}
-.serviceInsurance .insuranceSvg p {
-  color: #dc5426;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.serviceInsurance .insuranceDescription {
-  color: #999;
-  text-align: center;
-  align-self: stretch;
-  font-family: "Exo 2", sans-serif;
-  font-family: "Questrial", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
 *,
 *::before,
 *::after {
@@ -1416,4 +1373,33 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.map {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.map .mapSvg {
+  width: 1179px;
+  height: 686.85px;
+  flex-shrink: 0;
+}
+.map .pin1 {
+  top: 32%;
+  left: 29.6%;
+  position: absolute;
+  width: 57.852px;
+  height: 65.087px;
+  flex-shrink: 0;
+}
+.map .pin2 {
+  top: 17%;
+  right: 28.75%;
+  position: absolute;
+  width: 57.852px;
+  height: 65.087px;
+  flex-shrink: 0;
 }/*# sourceMappingURL=landingPage.css.map */
