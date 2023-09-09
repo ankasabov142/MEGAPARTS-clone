@@ -1,4 +1,4 @@
-MEGAPARTS site clone, eighth week of my internship at the respective company. The goal is to create a pixel-perfect recreation of the page provided to me using well-known front end technologies, such as HTML, CSS, SASS, as well as adding functionality via JavaScript. Implementation of back end code via PHP using good OOP practices, emphasis on sanitary clean code from SQL injections, good security and tidiness of code during the project
+MEGAPARTS site clone, eighth week of my internship at the respective company. The goal is to create a pixel-perfect recreation of the page provided to me using well-known front end technologies, such as HTML, CSS, SASS, as well as adding functionality via JavaScript. Implementation of back end code via PHP using good OOP practices, emphasis on sanitary clean code from SQL injections, good security and tidiness of code during the project. 
 
 Requirements:
 
