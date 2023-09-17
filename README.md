@@ -72,7 +72,6 @@ BONUS: Interactivity and Cart Functionality
 
 Additional Notes:
 
-
 - Ensure proper error handling.
 
 - Use Laravel's built-in features and libraries for routing, authentication, and validation when applicable.
