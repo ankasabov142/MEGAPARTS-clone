@@ -416,6 +416,7 @@ header {
 
 .autoParts {
   display: flex;
+  position: relative;
   justify-content: center;
   width: 100vw;
   margin-top: 42px;
@@ -590,6 +591,7 @@ header {
         display: inline-flex;
         align-items: flex-start;
         gap: 32px;
+        animation: w1anim 6s infinite;
         .autoExchangeProductUnit {
           display: flex;
           width: 271px;
@@ -648,6 +650,14 @@ header {
   justify-content: center;
   display: flex;
   align-items: center;
+  .leftservfix {
+    display: flex;
+    gap: 32px;
+  }
+  .rightservfix {
+    display: flex;
+    gap: 32px;
+  }
   .servicesFixedFirstDiv {
     display: inline-flex;
     align-items: flex-start;
@@ -794,6 +804,14 @@ header {
   display: flex;
   margin-top: 32px;
   justify-content: center;
+  .serviceLeft2 {
+    display: flex;
+    gap: 32px;
+  }
+  .serviceRight2 {
+    display: flex;
+    gap: 32px;
+  }
   .servicesWrapper {
     display: flex;
     width: 1179px;
@@ -1275,18 +1293,56 @@ footer {
           gap: 10px;
         }
       }
-      //   <div class="rights">
-      //   <div class="rightsWrapper">
-      //     <div class="firstPart">
-      //       <img src="/resources/megapartsFooterLogo.svg" alt="" />
-      //       <p>2023 © MEGAPARTS Marketplace</p>
-      //     </div>
-      //     <div class="secondPart">
-      //       <img src="/resources/MEGACARS.png" alt="">
-      //       <img src="/resources/MEGAОБЯВИ.png" alt="">
-      //     </div>
-      //   </div>
-      // </div>
     }
   }
+}
+
+@keyframes w1anim {
+  25% {
+    transform: translateX(-271px);
+  }
+  50% {
+    transform: translateX(-542px);
+  }
+  75% {
+    transform: translateX(-813px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+// .moveForw{
+//   animation: w2anim 1s ;
+//   animation-fill-mode: forwards;
+// }
+// @keyframes w2anim {
+//   0% {
+//     transform: translateX(0);
+//   }
+
+//   100% {
+//     transform: translateX(-271px);
+//   }
+// }
+
+#autoPartsArrowBackward {
+  width: 24px;
+  height: 18px;
+  flex-shrink: 0;
+  rotate: 180deg;
+  fill: #008aee;
+  position: absolute;
+  left: 30%;
+  top: 42%;
+}
+
+#autoPartsArrowForward {
+  width: 24px;
+  height: 18px;
+  flex-shrink: 0;
+  fill: #008aee;
+  position: absolute;
+  right: 10.6%;
+  top: 42%;
 }
